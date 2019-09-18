@@ -113,7 +113,7 @@ namespace UnityEditor.Rendering.HighDefinition
                     DrawGeneralContent,
                     DrawGeneralAdvancedContent
                     ),
-                CED.AdvancedFoldoutGroup(s_Styles.generalHeader, Expandable.Shape, k_ExpandedState,
+                CED.AdvancedFoldoutGroup(s_Styles.shapeHeader, Expandable.Shape, k_ExpandedState,
                     (serialized, owner) => GetAdvanced(Advanceable.Shape, serialized, owner),
                     (serialized, owner) => SwitchAdvanced(Advanceable.Shape, serialized, owner),
                     DrawShapeContent,
