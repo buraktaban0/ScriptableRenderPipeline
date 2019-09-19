@@ -24,6 +24,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed an issue where building a player in non-dev mode would generate render target error logs every frame
 - Fix crash when upgrading version of HDRP
 - Fixed rendering issues with material previews
+- Fix DensityVolume, ReflectionProbe aned PlanarReflectionProbe advancedControl display
+- Fix DXR scene serialization
+
 
 ## [7.1.1] - 2019-09-05
 
