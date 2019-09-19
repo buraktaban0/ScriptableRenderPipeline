@@ -140,7 +140,7 @@ namespace UnityEditor.Rendering.HighDefinition
                     serialized.boxSideFadePositive.vector3Value = serialized.editorAdvancedModeFaceFadePositive.vector3Value;
                     serialized.boxSideFadeNegative.vector3Value = serialized.editorAdvancedModeFaceFadeNegative.vector3Value;
                 }
-                GUILayout.Space(28f + 9f); //add right margin for alignment
+                GUILayout.Space(30f); //add right margin for alignment
                 EditorGUILayout.EndHorizontal();
 
                 GUILayout.Space(EditorGUIUtility.standardVerticalSpacing * 2f);
